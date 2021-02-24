@@ -1,0 +1,123 @@
+a{
+	 text-decoration: none
+}
+.main .img-banner{
+	width:100%;
+}
+.thuc-don img{
+    width:20px;
+    height:20px;
+}
+
+.col1,.col2{
+    float:left
+}
+
+/*Trang chủ*/
+.col21,.col22{
+    float:left;
+}
+.col21 img{
+    width:30px;
+    height:30px;
+}
+.cuoi-trang{
+    color:white;
+    background-color:blue;
+    clear:both;
+    text-align: center;
+}
+.tieu-de-sua{
+    font-size:25px;
+    font-weight: bold;
+}
+.danh-sach-trang{
+    padding:10px;
+    text-align: center;
+}
+.danh-sach-trang a{
+    padding:0 5px;
+    border:1px solid black;
+    margin:5px;
+}
+.danh-sach-trang a:hover{
+    background-color:blue;
+    color:white;
+}
+
+
+#page1{
+	 display: flex;
+    justify-content: space-between;
+}
+#page1 .panel-right{
+	 background: #c3b6b6;
+	width:15%;
+	padding:100px 20px;
+}
+#page1 .panel-right img{
+	width:100%
+}
+#page1 .panel-right table, tr, td{
+	border:0
+}
+#page1 .panel-content{
+	 background: #e6dadaf7;
+	width: auto;
+	flex-grow:1;
+	padding: 10px 20px;
+}
+#page1 .panel-left{
+	  background: #c3b6b6;
+	 font-size: 20px;
+    font-weight: 700;
+    	width:15%;
+	padding:100px 20px
+}
+#page1 .panel-left .list-cate-milk li{
+	padding: 3px 20px;
+}   
+.thuc-don-ngang ul{
+	display: flex;
+    justify-content: space-around;
+}
+.thuc-don-ngang li{
+	 padding: 10px 20px;
+	 font-size: 25px;
+	 transition: all .3s;
+	 border-radius:10px;
+	 margin:20px auto
+}
+.thuc-don-ngang li a{
+	display: flex;
+    align-items: center;
+    color:#f50f0f;
+}
+.thuc-don-ngang li:hover{
+	transition: all .3s;
+	background:#ded99b;
+	transform: scale(1.1)
+}
+#page1 .content-main table, tr, th, td{
+	 border-collapse: collapse;
+	 border:1px solid;
+	 text-align:center
+}
+#page1 .content-main table caption{
+	font-size:30px;
+	 font-weight: 700;
+	 margin:10px auto
+}
+#page1 .content-main table tr td img{
+	width:100px;
+	height:auto
+}
+#page1 .content-main table td{
+	    background: #fff;
+}
+#page1 .content-main table th{
+    background: aliceblue;
+        height: 40px;
+}
+
+

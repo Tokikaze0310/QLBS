@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+<tiles-definitions>
+
+    <!-- Default Main Template -->
+    <definition name="mau01" template="/WEB-INF/templates/trang-mau-01.jsp">
+        <put-attribute name="dauTrang" value="/WEB-INF/templates/dau-trang.jsp" />
+        <put-attribute name="noiDung" value="" />
+        <put-attribute name="cuoiTrang" value="/WEB-INF/templates/cuoi-trang.jsp" />
+    </definition>
+ 
+    <definition name="home" extends="mau01">
+        <put-attribute name="noiDung" value="/WEB-INF/views/danh-sach-sua.jsp" />
+    </definition>
+    
+    <definition name="detail-sua" extends="mau01">
+    	<put-attribute name="dauTrang" value="/WEB-INF/templates/dau-trang.jsp" />
+        <put-attribute name="noiDung" value="/WEB-INF/views/thong-tin-sua.jsp" />
+        <put-attribute name="cuoiTrang" value="/WEB-INF/templates/cuoi-trang.jsp" />
+    </definition>
+    
+    <definition name="add-sua" extends="mau01">
+    	<put-attribute name="dauTrang" value="/WEB-INF/templates/dau-trang.jsp" />
+        <put-attribute name="noiDung" value="/WEB-INF/views/them-sua-moi.jsp" />
+        <put-attribute name="cuoiTrang" value="/WEB-INF/templates/cuoi-trang.jsp" />
+    </definition>
+    
+    <definition name="sua-banchay" extends="mau01">
+    	<put-attribute name="dauTrang" value="/WEB-INF/templates/dau-trang.jsp" />
+        <put-attribute name="noiDung" value="/WEB-INF/views/sua-ban-chay.jsp" />
+        <put-attribute name="cuoiTrang" value="/WEB-INF/templates/cuoi-trang.jsp" />
+    </definition>
+    
+    <definition name="tim-sua" extends="mau01">
+    	<put-attribute name="dauTrang" value="/WEB-INF/templates/dau-trang.jsp" />
+        <put-attribute name="noiDung" value="/WEB-INF/views/tim-kiem-sua.jsp" />
+        <put-attribute name="cuoiTrang" value="/WEB-INF/templates/cuoi-trang.jsp" />
+    </definition>
+    
+</tiles-definitions>
