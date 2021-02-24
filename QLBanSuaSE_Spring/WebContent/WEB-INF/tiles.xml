@@ -40,4 +40,10 @@
         <put-attribute name="cuoiTrang" value="/WEB-INF/templates/cuoi-trang.jsp" />
     </definition>
     
+    <definition name="addkh" extends="mau01">
+    	<put-attribute name="dauTrang" value="/WEB-INF/templates/dau-trang.jsp" />
+        <put-attribute name="noiDung" value="/WEB-INF/views/them-khach-hang.jsp" />
+        <put-attribute name="cuoiTrang" value="/WEB-INF/templates/cuoi-trang.jsp" />
+    </definition>
+    
 </tiles-definitions>

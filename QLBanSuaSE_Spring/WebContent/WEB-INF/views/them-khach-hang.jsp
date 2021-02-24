@@ -10,7 +10,7 @@
         <%@include file="thuc-don.jsp"%>
     </div>
     <div class="col2">
-        <form name="frmThemKhachHang" action="trang-them-khach-hang.jsp" method="post">
+        <form name="frmThemKhachHang" action="add-kh" method="post">
         <table border="0">
             <thead>
                 <tr>
@@ -20,24 +20,24 @@
             <tbody>
                 <tr>
                     <td>Mã KH</td>
-                    <td><input type="text" name="txtMaKH" value="Mã KH" /></td>
+                    <td><input type="text" name=makhachHang value="Mã KH" /></td>
                     <td>Tên KH</td>
-                    <td><input type="text" name="txtTenKH" value="Tên KH" /></td>
+                    <td><input type="text" name="tenkhachHang" value="Tên KH" /></td>
                 </tr>
                 <tr>
                     <td>Phái</td>
                     <td>
-                        <input type="radio" name="rdbPhai" value="Nam"/>Nam
-                        <input type="radio" name="rdbPhai" value="Nu" />Nữ
+                        <input type="radio" name="gioiTinh" value = 0 />Nam
+                        <input type="radio" name="gioiTinh" value = 1 />Nữ
                     </td>
                     <td>Địa chỉ</td>
-                    <td><input type="text" name="txtDiaChi" value="Địa chỉ" /></td>
+                    <td><input type="text" name="diaChi" value="Địa chỉ" /></td>
                 </tr>
                 <tr>
                     <td>Điện thoại:</td>
-                    <td><input type="text" name="txtDienThoai" value="Điện thoại" /></td>
+                    <td><input type="text" name="dienThoai" value="Điện thoại" /></td>
                     <td>Email:</td>
-                    <td><input type="text" name="txtEmail" value="Email" /></td>
+                    <td><input type="text" name="email" value="Email" /></td>
                 </tr>
                 <tr>
                     <td colspan="4">
