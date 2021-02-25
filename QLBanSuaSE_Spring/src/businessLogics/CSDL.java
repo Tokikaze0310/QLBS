@@ -10,7 +10,7 @@ public class CSDL {
 		ds.setDriverClassName("com.mysql.jdbc.Driver");
 		ds.setUrl("jdbc:mysql://localhost:3306/qlbansua?useUnicode=true&characterEncoding=UTF-8");
 		ds.setUsername("root");
-		ds.setPassword("Fatestaynight1");
+		ds.setPassword("sonmatquy");
 		jdbc = new JdbcTemplate(ds);
 		return jdbc;
 	}
