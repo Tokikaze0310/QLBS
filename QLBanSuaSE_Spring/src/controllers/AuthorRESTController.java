@@ -25,7 +25,7 @@ public class AuthorRESTController {
 		return SuaBL.getsuaByMa(id);
 	}
 	@PostMapping("/add-milk-rest")
-	public int addauthorRest(@RequestBody SuaBean s)
+	public int addMilkRest(@RequestBody SuaBean s)
 	{
 		return SuaBL.add(s);
 	}
